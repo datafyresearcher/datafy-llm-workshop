@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "dlai-finetuning"
+version = "0.0.1"
+description = "A Project with learning resource on DLAI finetuning"
+authors = ["Amjad Raza"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "dlai-finetuning"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "2.0.0"
+transformers = "^4.31.0"
+lamini = "^0.0.21"
+jupyterlab = "^4.0.3"
+python-dotenv = "^1.0.0"
+datasets = "^2.14.4"
+pandas = "^2.0.3"
+accelerate = "^0.22.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
