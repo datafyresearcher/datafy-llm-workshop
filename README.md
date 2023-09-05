@@ -1,16 +1,18 @@
 <h1 align="center">
-📖 DLAI FINETUNING
+📖 DLAI LANGCHAIN 
 </h1>
 
-A collection of notebooks for the course DLAI Finetuning LLMs with local environment setup
+A collection of notebooks for the course DLAI LangChain for LLM Applications & Chat with Data with local environment setup
 
-<!-- [Course Link](https://www.deeplearning.ai/short-courses/finetuning-large-language-models/) -->
+<!-- [LangChain for LLM Application Development](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/) -->
+
+<!-- [LangChain: Chat with Your Data](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/) -->
 
 ## Learning Objectives
 
-- Learn the fundamentals of finetuning a large language model (LLM).
-- Understand how finetuning differs from prompt engineering, and when to use both.
-- Get practical experience with real data sets, and how to use techniques for your own projects.
+- Learn the fundamentals of LLM and LangChain toolkits.
+- Understand the prompt and Chains 
+- Understand how to develop the Chat with Data Applications with LangChain
 
 ## 🔧 Features
 
@@ -19,23 +21,24 @@ A collection of notebooks for the course DLAI Finetuning LLMs with local environ
 - Docker Support with Optimisation Cache etc
 - Run the Notebook Server with Docker
 
-This repo contains an `notebooks` flocation contains the ntebooks
+This repo contains  
+
+1. `notebooks\langchain` : LangChain for LLM Application Development
+2. `notebooks\chat-data` : LangChain: Chat with Your Data
 
 ## 💻 Generate API Key for LAMINI
 
-1. Sign up on https://www.lamini.ai/
-2. Go to Account and get the API key Under `Active API Tokens`
-3. Under `.powerml/configure_llama.yaml`, add the key
+1. Sign up on https://platform.openai.com/
+2. Generate OpenAI API keys
 4. `dotenv` can also be used to setup the key. Use the `env.example` to create `env` file
 
-for more on Authentcation read `https://lamini-ai.github.io/auth/`
 
 ## 💻 Running Locally
 
 1. Clone the repository📂
 
 ```bash
-git clone https://github.com/amjadraza/dlai-finetuning.git
+git clone https://github.com/amjadraza/dlai-langchain.git
 ```
 
 2. Install dependencies with [Poetry](https://python-poetry.org/) and activate virtual environment🔨
