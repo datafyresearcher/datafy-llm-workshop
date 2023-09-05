@@ -1,7 +1,7 @@
 version: '3'
 services:
-  dlai-finetuning-notebook:
-    image: dlai-finetuning:latest
+  dlai-langchain-notebook:
+    image: dlai-langchain:latest
     env_file:
     - .env
     build: ./app

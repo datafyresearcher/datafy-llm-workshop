@@ -69,15 +69,15 @@ https://medium.com/@albertazzir/blazing-fast-python-docker-builds-with-poetry-a7
 
 Build the docker container
 
-``docker  build . -t dlai-finetuning:latest ``
+``docker  build . -t dlai-langchain:latest ``
 
 To generate Image with `DOCKER_BUILDKIT`, follow below command
 
-```DOCKER_BUILDKIT=1 docker build --target=runtime . -t dlai-finetuning:latest```
+```DOCKER_BUILDKIT=1 docker build --target=runtime . -t dlai-langchain:latest```
 
 1. Run the docker container directly 
 
-``docker run -d --name dlai-finetuning -p 8888:8888 dlai-finetuning:latest ``
+``docker run -d --name dlai-langchain -p 8888:8888 dlai-langchain:latest ``
 
 2. Run the docker container using docker-compose (Recommended)
 
@@ -95,4 +95,4 @@ As `dlai-hf-course:latest` is a template project with minimal example. Report is
 
 We have collected the Notebooks from original course and edited for few lines/functions to make them run locally. 
 
-We must give credit to Course Instructores [Sharon Zhou](https://www.linkedin.com/in/zhousharon)
+We must give credit to Course Instructores [Harrison Chase](https://www.linkedin.com/in/harrison-chase-961287118/)
