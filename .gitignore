@@ -159,7 +159,5 @@ token.json
 notebooks/lamini_docs_3_steps/
 notebooks/__pycache__
 notebooks/.ipynb_checkpoints
-notebooks/chat-data/.ipynb_checkpoints
-notebooks/chat-data/chroma/
-notebooks/chat-data/youtube/
-notebooks/langchain/.ipynb_checkpoints
+notebooks/.ipynb_checkpoints
+
