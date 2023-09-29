@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "dlai-langchain"
+name = "datafy-llm-workshop"
 version = "0.0.1"
 description = "A Project containing the datafy LLM Workshop"
 authors = ["Amjad Raza"]
@@ -21,6 +21,10 @@ tiktoken = "^0.4.0"
 wikipedia = "^1.4.0"
 litellm  = "^0.1.794"
 aleph-alpha-client = "^3.5.1"
+google-cloud-aiplatform = "^1.33.1"
+ai21 = "^1.2.8"
+ctransformers = "^0.2.27"
+huggingface-hub = "^0.17.3"
 
 
 [build-system]
