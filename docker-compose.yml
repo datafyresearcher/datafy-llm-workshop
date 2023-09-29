@@ -1,7 +1,7 @@
 version: '3'
 services:
   dlai-langchain-notebook:
-    image: dlai-langchain:latest
+    image: datafy-llm-ws:latest
     env_file:
     - .env
     build: ./app
