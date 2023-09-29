@@ -1,18 +1,16 @@
 <h1 align="center">
-📖 DLAI LANGCHAIN 
+📖 Datafy LLM Workshop 
 </h1>
 
-A collection of notebooks for the course DLAI LangChain for LLM Applications & Chat with Data with local environment setup
+A collection of notebooks for the workshop on LLM
 
-<!-- [LangChain for LLM Application Development](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/) -->
-
-<!-- [LangChain: Chat with Your Data](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/) -->
 
 ## Learning Objectives
 
+- What is Prompt Engineering
+- LiteLL Implementation of LLM Models
 - Learn the fundamentals of LLM and LangChain toolkits.
-- Understand the prompt and Chains 
-- Understand how to develop the Chat with Data Applications with LangChain
+- Models, Memory, Chains & Agents
 
 ## 🔧 Features
 
@@ -23,8 +21,8 @@ A collection of notebooks for the course DLAI LangChain for LLM Applications & C
 
 This repo contains  
 
-1. `notebooks\langchain` : LangChain for LLM Application Development
-2. `notebooks\chat-data` : LangChain: Chat with Your Data
+1. `notebooks\` : LangChain/LiteLLM for LLM Application Development
+
 
 ## 💻 Generate API Key for LAMINI
 
@@ -38,7 +36,7 @@ This repo contains
 1. Clone the repository📂
 
 ```bash
-git clone https://github.com/amjadraza/dlai-langchain.git
+git clone https://github.com/amjadraza/datafy-llm-workshop.git
 ```
 
 2. Install dependencies with [Poetry](https://python-poetry.org/) and activate virtual environment🔨
@@ -69,15 +67,15 @@ https://medium.com/@albertazzir/blazing-fast-python-docker-builds-with-poetry-a7
 
 Build the docker container
 
-``docker  build . -t dlai-langchain:latest ``
+``docker  build . -t datafy-llm-ws:latest ``
 
 To generate Image with `DOCKER_BUILDKIT`, follow below command
 
-```DOCKER_BUILDKIT=1 docker build --target=runtime . -t dlai-langchain:latest```
+```DOCKER_BUILDKIT=1 docker build --target=runtime . -t datafy-llm-ws:latest```
 
 1. Run the docker container directly 
 
-``docker run -d --name dlai-langchain -p 8888:8888 dlai-langchain:latest ``
+``docker run -d --name dlai-langchain -p 8888:8888 datafy-llm-ws:latest ``
 
 2. Run the docker container using docker-compose (Recommended)
 
@@ -89,7 +87,7 @@ To generate Image with `DOCKER_BUILDKIT`, follow below command
 
 ## Report Feedbacks
 
-As `dlai-hf-course:latest` is a template project with minimal example. Report issues if you face any. 
+Create issues if you are having any problems
 
 ## DISCLAIMER & CREDITS
 
