@@ -1,9 +1,7 @@
 version: '3'
 services:
-  dlai-langchain-notebook:
+  datafy-llm-workshop:
     image: datafy-llm-ws:latest
-    env_file:
-    - .env
     build: ./app
     command: jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
     ports:
