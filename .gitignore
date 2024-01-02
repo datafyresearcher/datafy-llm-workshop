@@ -160,4 +160,6 @@ notebooks/lamini_docs_3_steps/
 notebooks/__pycache__
 notebooks/.ipynb_checkpoints
 notebooks/.ipynb_checkpoints
+notebooks/01_LiteLLM_Models.ipynb
+
 
