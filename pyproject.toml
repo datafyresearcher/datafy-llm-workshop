@@ -9,22 +9,25 @@ packages = [{include = "datafy-llm-workshop"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-langchain =  {extras = ["docarray"], version = "^0.0.304"}
-transformers = "^4.33.3"
+langchain = "0.2.3"
+transformers = "4.41.2"
 jupyterlab = "^4.0.3"
 python-dotenv = "^1.0.0"
 datasets = "^2.14.4"
 pandas = "^2.0.3"
 accelerate = "^0.22.0"
-openai = "^0.28.0"
-tiktoken = "^0.4.0"
-wikipedia = "^1.4.0"
-litellm  = "^0.1.794"
-aleph-alpha-client = "^3.5.1"
-google-cloud-aiplatform = "^1.33.1"
-ai21 = "^1.2.8"
-ctransformers = "^0.2.27"
-huggingface-hub = "^0.17.3"
+openai = "1.34.0"
+tiktoken = "0.7.0"
+wikipedia = "1.4.0"
+litellm  = "1.40.9"
+aleph-alpha-client = "7.1.0"
+google-cloud-aiplatform = "1.54.1"
+ai21 = "2.5.0"
+ctransformers = "0.2.27"
+huggingface-hub = "0.23.3"
+langchain-community = "0.2.4" 
+langchain-openai = "0.1.8"
+langchain-experimental = "0.0.60"
 
 
 [build-system]
